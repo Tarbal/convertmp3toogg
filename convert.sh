@@ -15,4 +15,4 @@ done
 #https://philharmonia.co.uk/resources/sound-samples/
 #make thisscript.sh exectutable by entering in terminal "chmod a+x /path/to/thisscript.sh"
 #unpack the samples into subdirectories (without spaces or quotes in directory name), within a master directory where you run this script ./thisscript.sh
-#now the mp3 files you downloaded are converted into ogg files which can be used in LMMS
+#now the mp3 files you downloaded are converted into wav files which can be used in LMMS
