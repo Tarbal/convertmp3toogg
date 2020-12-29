@@ -6,7 +6,7 @@ for i in `find . -maxdepth 1 -mindepth 1 -type d -printf '%f\n'`; do    #iterate
 	for j in `ls *.mp3`; do      #iterate through all mp3 files in each subdirectory
 		name=$(echo "$j" | cut -f 1 -d '.')   #retrieve file name without extension
 		echo $name;
-		avconv -i $name.mp3 -vn $name.wav  #actual conversion using avconv binary; avconv binary can be compiled from source from https://libav.org/download 
+		.././avconv -i $name.mp3 -vn $name.wav  #actual conversion using avconv binary; avconv binary can be compiled from source from https://libav.org/download 
 	done
 	cd ..
 done
